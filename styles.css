@@ -1,0 +1,104 @@
+header{
+    background-color: #d9d9d9;
+    position:fixed;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    width:100%;
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+h1{
+    font-size:2em;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+#logo {
+    max-width: auto;
+    height:60px;
+    border-radius: 40px;
+    border-width: 2px;
+    border-color: aqua;
+    display: inline-block;
+}
+#leaf{
+    height:1.2rem;
+    display:inline;
+}
+
+.prodImg{
+    padding-top:50px;
+    display:block;
+    height:200px;
+}
+
+#title{
+    display:inline-block;
+    font-family:Helvetica;
+    vertical-align:text-bottom;
+    font-size:1.4em;
+}
+
+
+#napkin{
+    margin-left:20px;
+}
+
+.label{
+    font-size:1.2em;
+    font-family: sans-serif;
+    margin-left:30px;
+    text-align:center;
+}
+
+#container{
+    padding-top:100px;
+}
+
+#items{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 100px;
+    justify-content: center;
+}
+
+.tile{
+    padding: 0 50px;
+    margin:30px;
+    width:auto;
+    outline: auto;
+    outline-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-info h3 {
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
