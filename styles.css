@@ -29,6 +29,7 @@ h1{
 #leaf{
     height:1.2rem;
     display:inline;
+    margin-left:2px;
 }
 
 .prodImg{
